@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title> My Portfolio </title>
+    <style>
+      body{
+  background: linear-gradient(#263238 0%, #757575 100%);
+}
+#About {
+  text-align: center;
+  background: linear-gradient(#60ebeb 0%, #1976D2 100%);
+  font-family: comic sans ms
+}
+#h {
+  text-align: center;
+  background: linear-gradient(#311B92 0%, #4CAF50 100%);
+  font-family: comic sans ms
+}
+#Info {
+  text-align: center;
+  background: linear-gradient(#00838F 0%, #1E88E5 100%);
+  font-family: comic sans ms
+}
+ #About {
+  text-align: center;
+  background: linear-gradient(#4CAF50 0%, #00838F 100%);
+  font-family: comic sans ms
+    right: 10px;
+}
+
+#Inspiration {
+  text-align: center;
+  background: linear-gradient(#1E88E5 0%, #42A5F5 100%);
+  font-family: comic sans ms
+    right: 10px;
+}
+#Contact {
+  text-align: center;
+  background: linear-gradient(#42A5F5 0%, #90CAF9 100%);
+  font-family: comic sans ms
+    right: 10px;
+}
+
+img {
+  height: 20%;
+  width: 20%;
+  border-radius : 50px;}
+
+
+  .links {
+    float: top;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: #90A4AE;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    list-style: none;
+   
+}
+.picture {
+  border: 5px solid #263238;
+  border-radius: 10px;
+}
+img:hover {
+  transform: scale(0.9);
+}
+#email {
+  background-color: #F06292;
+}
+#gif {
+   
+}
+li:hover {
+  transform: scale(0.99);
+}
+      </style>
+    </head>
+  <body>
+    <div>
+    <ul class="menu">
+        <li class="links" id = "home"><a href="#h">Home</li>
+        <li class="links"><a href="#About">About </li>
+        
+<li class="links"><a href="#Info">  Articles </li> 
+<li class="links"><a href="#Inspiration">  Inspiration </li>
+  <li class="links"><a href="#Contact">  Contact </li>
+      </div>
+      <src img=
+    </ul>
+    <section id = "h">
+     <img src="https://i2.wp.com/allhtaccess.info/wp-content/uploads/2018/03/programming.gif?fit=1281%2C716&ssl=1" id = "gif">
+      <h1> My Favorite Hobby<br><span id="name"> Coding </span></h1></div>
+    </section>
+  <section id="About">
+           <h1>About</h1><div class="line"></div>
+<p> My hobby is coding apps, websites etc. In my free time, whenever I feel annoyed, I always do coding after my homework. I am 10 years old and in 5th grade. Now I know that coding helps to increase our memory, problem-solving skill and cognitive skills as well. Coding exercises can activate the brain's learning centres. This hobby can develop on purpose, but I got it naturally. Coding can keep one busy, concentrated and cheerful.
+  Coding is a good source of enjoyment, concentration and computer technology. It makes us aware of the future, helps us in future, knowledge but most importantly successful.</p>
+</section>
+  <section id="Info">
+           <h1>Articles</h1><div class="line"></div>
+<iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Computer_programming"frameboder="0"></iframe>
+</section>  
+    <section id="Inspiration">
+           <h1>Inspiration</h1><div class="line"></div>
+      <span>
+        <a href = "https://en.wikipedia.org/wiki/Steve_Jobs" target = "_blank">
+          <img class = "picture" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg/375px-Steve_Jobs_Headshot_2010-CROP2.jpg">
+          <a/>
+      </span>
+</section>
+      <section id="Contact">
+           <h1>Contact</h1><div class="line"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.7718084922697!2d31.42157733420867!3d29.987923787053063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583ca189fea5e9%3A0x5870fef85653c0a7!2sWest%20Arabella%2C%20Al%20Hay%20Al%20Asher%2C%20Nasr%20City%2C%20Cairo%20Governorate!5e1!3m2!1sen!2seg!4v1632572613545!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <section id = "email">
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfnbHBgdtXQhWHJZVjKQJxTKMSlRDbfHkbMzHnPZVgHCBPVdGlgDbsXlvmFkDlwfPphgdB"> <i class="fa fa-envelope"></i> 
+            <h3>abdarrahman.elkady@gmail.com</h3>  </a>
+       </section>
+
+  </body>
+</html>
