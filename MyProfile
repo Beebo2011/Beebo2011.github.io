@@ -77,7 +77,7 @@ img:hover {
   background-color: #F06292;
 }
 #gif {
-   
+   margin-top: 10px;
 }
 li:hover {
   transform: scale(0.99);
