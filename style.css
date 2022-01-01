@@ -1,0 +1,51 @@
+
+input
+{
+    background: grey
+}
+
+.book_mainDiv
+{
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+.book_mainDiv img
+{
+  width: 100%;
+}
+
+.book_mainDiv hr
+{
+    width: 230px; 
+}
+
+.book_mainDiv h5 , .book_mainDiv p
+{
+margin-left: 20px;
+}
+
+
+.book_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.book_head i
+{
+float: right;
+}
+
+.book_text span
+{
+color: #ff7700;
+}
+
+
