@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        
+        <title>Science Project</title>
+        
+        <style>
+        
+            h3 
+            {
+            color: rgb(35, 32, 138);
+            }
+            
+            p 
+            {
+            color: rgb(0, 86, 156);
+            }
+            
+            h1 {
+            font-family: cursive;
+            }
+            
+            h2 {
+            font-family: Fantasy, Papyrus;
+            }
+            
+            h3 {
+            font-family: "Georgia", "Palatino", serif;
+            }
+            
+            body {
+            font-family: sans-serif;
+            background-color: rgb(202, 205, 219);
+            border-style: groove;
+            border-width: 5px 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-color: rgb(68, 117, 207);
+        }
+        
+            .materials {
+                line-height: 1.8;
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+    
+    <h1>Science Project</h1>
+        
+    <h3>Firstly, let's talk about why oil damages the Earth.
+    </h3>
+        
+<p>
+Oil destroys the insulating ability of fur-bearing mammals, such as sea otters, and the water repellency of a bird's feathers, therefore disclosing these animals to brutal stuff. Without the power to repel water and protect it from cold water, birds and mammals will die from hypothermia.
+</p>
+    
+    <h2>Project Model</h2>
+       
+       <h3>Materials</h3>
+       
+       <p class="materials">
+           - Any Type Of Hair <br>
+           - Pantyhose (type of sock) <br>
+           - Cotton <br>
+           - Water <br>
+           - Motor Oil <br>
+           - Paper Towels <br>
+           - Bowl (has to be at least 40 cm wide and 30 cm tall <br>       - Plastic Cup
+       </p>
+       
+       <h2>Video</h2>
+       
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/l2Pll0V4HdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+    </body>
+    
+</html>
