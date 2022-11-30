@@ -1,0 +1,219 @@
+<html>
+  <head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <center>
+        <p>Case Study Between Google Lens And Mobilenet</p>
+        <span class="google_lens">Google Lens <img src="https://www.bing.com/th?id=Ad4c93f2425bde88c5133a1081ee67f19&w=110&h=110&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=SANGAM"></span>
+        <p>VS</p>
+        <p class="btn btn-primary" id="mobilenet">Mobilenet</p>
+        <hr>
+        <ol>
+          <div class="test_image_and_result1 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white1">Test Image - </b>
+              <img class="img" src="coin.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result2 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white2">Test Image - </b>
+              <img class="img" src="napkin.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result3 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white3">Test Image - </b>
+              <img class="img" src="pen.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result4 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white4">Test Image - </b>
+              <img class="img" src="sharpener.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result5 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white5">Test Image - </b>
+              <img class="img" src="click.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result6 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white6">Test Image - </b>
+              <img class="img" src="medicine.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result7 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white7">Test Image - </b>
+              <img class="img" src="phone.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result8 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white8">Test Image - </b>
+              <img class="img" src="AC.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result9 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white9">Test Image - </b>
+              <img class="img" src="plant.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+          <div class="test_image_and_result10 col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+              <b class="white10">Test Image - </b>
+              <img class="img" src="key.jpg">
+            </li>
+            <h5 class="first col-sm-4 col-xs-12">
+              Output on <b>Google Lens</b> - 
+              <span> </span>
+            </h5>
+            <h5 class="second col-sm-4 col-xs-12">
+              Output on <b>Mobilenet Model </b> - 
+              <span> </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - </h4>
+              <hr>
+              <h4> </h4>
+            </div>
+          </div>
+        </ol>
+      <p class="bottom">Developed by - Abdar-Rahman Elkady</p>
+  </center>
+  </body>
+</html>
