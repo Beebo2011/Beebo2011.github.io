@@ -1,0 +1,30 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.heading h3{
+    display: inline;
+    font-size: 22px;
+}
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+.footer{
+    background-color: grey;
+    width: 100%;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 2;
+    bottom: 0px;
+    position: sticky;
+}
+.modal-body{
+    text-align: left;
+}
