@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quran Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>📖 Quran Tracker</h1>
+  <p>Read • Track • Understand</p>
+</header>
+
+<section class="card">
+  <h2>📿 Prayer Times (Cairo)</h2>
+  <ul id="prayerTimes"></ul>
+</section>
+
+<section class="card">
+  <h2>📖 Quran Reading</h2>
+  <div id="ayahs"></div>
+</section>
+
+<footer>
+  <p>Made for reading the Quran with understanding</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
